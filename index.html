@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <style>
+      /* All parent elements must have their height defined */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .iframe-container {
+        height: 100%; /* The container div must also be 100% */
+        width: 100%;
+      }
+
+      iframe {
+        height: 100%; /* Iframe will take 100% of its parent container's height */
+        width: 100%;
+        border: none;
+      }
+    </style>  
+</head>
+<body>
+    <div class="iframe-container">
+    <iframe src="https://script.google.com/macros/s/AKfycbyQii4GZJvC8Wb3108i0Itey3Ya6Qifwcx9uadzlIzSCXQ23HpJrGL-CNSGyN2-UfwSBQ/exec" title=""></iframe>
+  </div>
+</body>
+</html>
